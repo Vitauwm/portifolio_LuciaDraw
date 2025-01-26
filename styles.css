@@ -164,7 +164,7 @@ section {
 .banner-card {
     width: 100%; /* Largura total */
     height: 400px; /* Altura do banner */
-    background: url('./img/outdoor.png') center/cover no-repeat; /* Imagem de fundo */
+    background: url('./img/OUTDOOR-nike.png') center/cover no-repeat; /* Imagem de fundo */
     color: white; /* Cor do texto */
     display: flex; /* Exibe como flexbox */
     justify-content: center; /* Centraliza horizontalmente */
