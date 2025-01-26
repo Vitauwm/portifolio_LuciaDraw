@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Lucia Maria</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head> 
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <img src="logo_5gZ3YQ70.png" alt="Logo" class="logo">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner" class="banner-card">
+        <div class="banner-content">
+            <h2>Transforme suas ideias em realidade visual</h2>
+            <p>Explorando soluções criativas para projetos inovadores.</p>
+        </div>
+    </section>
+
+    <div id="projects" class="container">
+        <div class="section-title">
+            <h2>Conheça Meus Projetos</h2>
+            <p>Descubra a criatividade e a paixão por trás de cada projeto que realizamos.</p>
+        </div>
+    
+        <div class="project-grid">
+            <div class="project-card" onclick="openModal('modal-project1')">
+                <img src="img/Raio-de-sol/capa2.jpg" alt="Projeto Landing Page">
+                <h3>Posts para Instituição de Ensino</h3>
+                <p>Criação de materiais gráficos para redes sociais.</p>
+            </div>
+            <div class="project-card" onclick="openModal('modal-project2')">
+                <img src="img/divulga-ai/divulga3.jpg" alt="Projeto Posts Escola">
+                <h3>Landing Page de Website</h3>
+                <p>Desenvolvimento de uma landing page moderna e responsiva.</p>
+            </div>
+            <div class="project-card" onclick="openModal('modal-project3')">
+                <img src="img/psicoterapia/pdm2.jpg" alt="Projeto Infográficos">
+                <h3>Infográficos Educativos</h3>
+                <p>Elaboração de infográficos informativos e ilustrativos.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modais -->
+    <div id="modal-project1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-project1')">&times;</span>
+            <h2>Posts para Instituição de Ensino</h2>
+            <img src="img/Raio-de-sol/capa3.jpg" alt="Projeto Landing Page" class="modal-image">
+            <p>Detalhes sobre a criação de banners e posts promocionais para redes sociais.</p>
+            <div class="extra-images" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                <img src="img/Raio-de-sol/capa1.jpg" alt="Imagem adicional do projeto">
+                <img src="img/Raio-de-sol/capa2.jpg" alt="Imagem adicional do projeto">
+            
+            </div>
+        </div>
+    </div>
+    
+    <div id="modal-project2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-project2')">&times;</span>
+            <h2>Landing Page de Website</h2>
+            <img src="img/divulga-ai/divulga1.jpg" alt="Projeto Posts Escola" class="modal-image">
+            <p>Detalhes sobre o desenvolvimento da landing page moderna e responsiva.</p>
+            <div class="extra-images" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+          
+                <img src="img/divulga-ai/divulga2.jpg" alt="Post adicional 2">
+                <img src="img/divulga-ai/divulga3.jpg" alt="Post adicional 3">
+                <img src="img/divulga-ai/divulga4.jpg" alt="Post adicional 4">
+            </div>
+        </div>
+    </div>
+    
+    <div id="modal-project3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal-project3')">&times;</span>
+            <h2>Infográficos Educativos</h2>
+            <p>Detalhes sobre a criação de infográficos para facilitar a compreensão de dados.</p>
+            <div class="extra-images" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                <img src="img/psicoterapia/pdm1.jpg" alt="Infográfico adicional 1">
+                <img src="img/psicoterapia/pdm2.jpg" alt="Infográfico adicional 2">
+            </div>
+        </div>
+    </div>
+    
+    <section id="selected-posters" class="container">
+        <div class="section-title">
+            <h2>Pôsteres</h2>
+            <p>Projetos autorais criados como exercícios de design gráfico, tipografia e comunicação visual.</p>
+        </div>
+        <div class="gallery">
+            <div class="poster-card">
+                <img src="./img/projetos/etiqueta_roupa.png" alt="Etiqueta de Roupa">
+                <h3>Etiqueta de Roupa</h3>
+                <p>Etiqueta de roupa aplicada a uma calça, explorando minimalismo e elegância.</p>
+            </div>
+            <div class="poster-card">
+                <img src="./img/projetos/O_CORTIÇO.png" alt="O Cortiço">
+                <h3>O Cortiço</h3>
+                <p>Pôster para a peça "O Cortiço", destacando a densidade dramática e narrativa.</p>
+            </div>
+            <div class="poster-card">
+                <img src="./img/projetos/SEMANA_PRETA.png" alt="Semana Preta">
+                <h3>Semana Preta</h3>
+                <p>Pôster criado para o Dia da Consciência Negra, celebrando a história e a cultura afro-brasileira.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou Lucia Maria, designer formada, com experiência em identidade visual, 
+            criação de artes vetoriais e desenvolvimento de materiais para redes sociais.
+            Meu foco é criar projetos que combinem estética e funcionalidade, 
+            atendendo sempre às necessidades do cliente e do público-alvo.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Entre em Contato</h2>
+        <p>Entre em contato comigo para discutir projetos futuros.</p>
+        <div class="btn-group">
+            <a href="mailto:lucia.web.mg@gmail.com" class="btn btn-email">Enviar Email</a>
+            <a href="https://wa.me/75999962207" target="_blank" class="btn btn-whatsapp">WhatsApp</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>© 2024 Lucia Maria. Todos os direitos reservados.</p>
+        <p><a href="#home">Voltar ao topo</a></p>
+    </footer>
+</body>
+</html>
