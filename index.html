@@ -132,18 +132,22 @@
             <p>Representação visual de um produto ou design que permite ver como ele ficará em sua forma final, Etiqueta de roupa, explorando minimalismo e elegância.</p>
         </div>
         <div class="gallery">
-            
             <div class="poster-card">
-                <img src="./img/projetos/etiqueta_roupa2.jpg" alt="Etiqueta de Roupa">
-           
+                <img src="./img/projetos/etiqueta_roupa2.jpg" alt="Etiqueta de Roupa" onclick="openModal('./img/projetos/etiqueta_roupa2.jpg')">
             </div>
             <div class="poster-card">
-                <img src="./img/projetos/etiqueta_roupa.png" alt="Etiqueta de Roupa">  
+                <img src="./img/projetos/etiqueta_roupa.png" alt="Etiqueta de Roupa" onclick="openModal('./img/projetos/etiqueta_roupa.png')">
             </div>
             <div class="poster-card">
-                <img src="./img/projetos/etiqueta_roupa3.jpg" alt="Etiqueta de Roupa">
-             
+                <img src="./img/projetos/etiqueta_roupa3.jpg" alt="Etiqueta de Roupa" onclick="openModal('./img/projetos/etiqueta_roupa3.jpg')">
             </div>
+        </div>
+        
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="img01">
+        </div>
         </div>
     </section>
 
