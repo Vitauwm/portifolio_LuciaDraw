@@ -1,7 +1,7 @@
 /* Reset */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9; /* Cor de fundo mais suave */
+    background-color: #ffffff; /* Cor de fundo mais suave */
     color: #333333;
 }
 
@@ -21,7 +21,7 @@ body {
     gap: 20px;
     padding: 10px 0;
     background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+
 }
 
 .navbar a {
